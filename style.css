@@ -1,0 +1,18 @@
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+html { scroll-behavior: smooth; }
+
+/* Custom scrollbar for a polished look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9; 
+}
+::-webkit-scrollbar-thumb {
+  background: #064e3b; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #065f46; 
+}
